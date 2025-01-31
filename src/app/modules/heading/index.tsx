@@ -25,7 +25,6 @@ export default function HeadingComponent() {
           <button className="bg-orange-500   rounded-full sm:flex px-4 py-1 text-white text-sm">
             Order Now
           </button>
-
           <button className="flex px-5 bg-orange-500  rounded-full md:hidden md:px-4 md:py-1 items-center ">
             <span>
               <Image src={Phone} alt="phone" className="h-2 md:h-4" />
