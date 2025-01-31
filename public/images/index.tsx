@@ -1,0 +1,20 @@
+import Dumpline from './dumpling.svg';
+import Phone from './phone.svg';
+import Bowl from './bowl.svg';
+import Logo from './logo.svg';
+import Ramen from './ramen.svg';
+import Lemonade from './lemonade.svg';
+import Pizza from './pizza.svg';
+import AlooRoti from "./Aloo_Roti.svg";
+import ChickenFriedMomo from "./Chicken_Fried_Momo.svg";
+import ChickenKotheyMomo from "./Chicken_Kothey_Momo.svg";
+import ChickenSteamMomo from "./Chicken_Steam_Momo.svg";
+import Taco from "./Taco.svg";
+import Bg from "./bg2.svg";
+import Cart from "./cart.svg";
+import Wallet from "./wallet.svg";
+import Puzzle from "./puzzle.svg";
+import Cook from "./cook.svg";
+import Delivery from "./delivery.svg";
+
+export {Wallet,Puzzle,Cook,Delivery, Cart,Bg, Dumpline, Phone, Bowl, Logo, Ramen, Lemonade, Pizza, AlooRoti, ChickenFriedMomo, ChickenKotheyMomo, ChickenSteamMomo, Taco };
