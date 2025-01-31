@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 
 type Props = {
+    /* eslint-disable @typescript-eslint/no-explicit-any */
     image: any
     title: string
     price: number

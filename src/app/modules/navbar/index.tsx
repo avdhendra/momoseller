@@ -4,9 +4,9 @@ import Phone from "../../../../public/images/phone.svg"
 import { GiHamburgerMenu } from "react-icons/gi";
 import Image from 'next/image'
 
-type Props = {}
 
-export default function Navbar({}: Props) {
+
+export default function Navbar() {
   return (
       <header className='flex flex-row p-8 items-center justify-between w-full'>
           <div className='flex w-1/3'>

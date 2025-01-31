@@ -1,7 +1,7 @@
 import React from 'react'
 import { Taco,ChickenFriedMomo,ChickenKotheyMomo,ChickenSteamMomo,AlooRoti } from '../../../../../public/images'
 import Card2 from '../../card/card2'
-type Props = {}
+
 
 const CARD_DATA = [
     {
@@ -30,7 +30,7 @@ const CARD_DATA = [
         price:10
     }
 ]
-export default function SubModule2({}: Props) {
+export default function SubModule2() {
   return (
       <div className='flex flex-col justify-center items-center gap-4 py-4'>
           <h1 className='text-4xl font-bold'>Our <span className='text-orange-600'>Popular</span> Foods</h1>

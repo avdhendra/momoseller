@@ -5,9 +5,9 @@ import SubModule1 from '../submodules/sub1'
 import SubModule2 from '../submodules/sub2'
 import SubModule3 from '../submodules/sub3'
 
-type Props = {}
 
-export default function MainComponent({}: Props) {
+
+export default function MainComponent() {
   return (
     <div className="h-screen w-screen  flex flex-col px-4">
       <Navbar/>

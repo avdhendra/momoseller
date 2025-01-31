@@ -3,7 +3,7 @@ import React from 'react'
 import { Cart ,Cook,Delivery,Puzzle,Wallet} from '../../../../../public/images'
 import Card3 from '../../card/card3'
 
-type Props = {}
+
 
 const CARD_DATA = [
     {
@@ -25,7 +25,7 @@ const CARD_DATA = [
     }
 ]
 
-export default function SubModule3({}: Props) {
+export default function SubModule3() {
   return (
       <div className='flex flex-col gap-10 container-bg w-full px-10 py-40'>
           <h2 className='text-4xl font-bold text-center'>Momo <span className='text-orange-600  font-bold'>Mobile</span></h2>
