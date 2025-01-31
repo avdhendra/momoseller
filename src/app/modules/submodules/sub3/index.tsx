@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image'
 import React from 'react'
 import { Cart ,Cook,Delivery,Puzzle,Wallet} from '../../../../../public/images'
@@ -31,7 +32,7 @@ export default function SubModule3() {
           <h2 className='text-4xl font-bold text-center'>Momo <span className='text-orange-600  font-bold'>Mobile</span></h2>
           <div className='flex flex-col-reverse md:flex-row'>
               <article className='text-center px-32 py-10'>
-              "Craving delicious, freshly steamed momos? Look no further! Our unique bus cart serves a variety of mouthwatering momos, from classic favorites to exciting new flavors. Whether you're a fan of juicy chicken, spicy veg, or cheesy delights, we've got something for every momo lover. Order now and taste the difference!"
+              &quot;Craving delicious, freshly steamed momos? Look no further! Our unique bus cart serves a variety of mouthwatering momos, from classic favorites to exciting new flavors. Whether you&apos;re a fan of juicy chicken, spicy veg, or cheesy delights, we&apos;ve got something for every momo lover. Order now and taste the difference!&quot;
               </article>
               <Image src={Cart} alt="cart"/>
           </div>

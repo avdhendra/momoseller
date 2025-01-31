@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Logo from "../../../../public/images/logo.svg"
 import Phone from "../../../../public/images/phone.svg"

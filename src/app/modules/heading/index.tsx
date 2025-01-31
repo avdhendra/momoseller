@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Bowl from "../../../../public/images/bowl.svg";
 import Image from "next/image";
@@ -17,8 +18,8 @@ export default function HeadingComponent() {
           with <span className="text-orange-600">Every Bite!</span>
         </h1>
         <h2>
-          "Delight in every bite with our freshly crafted momos, made to satisfy
-          your cravings and warm your soul!"
+        &quot;Delight in every bite with our freshly crafted momos, made to satisfy
+          your cravings and warm your soul!&quot;
         </h2>
 
         <div className="flex flex-row gap-10">
